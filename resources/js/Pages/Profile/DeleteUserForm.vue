@@ -46,6 +46,7 @@
                     <jet-danger-button class="ml-2" @click.native="deleteUser" :class="{ 'opacity-25': form.processing }" :disabled="form.processing">
                         Delete Account
                     </jet-danger-button>
+
                 </template>
             </jet-dialog-modal>
         </template>
